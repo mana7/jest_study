@@ -33,7 +33,7 @@ module.exports = {
   method3: clearCityDatabase
 };
 
-/*
+/* 下記はNG。exportsは、上記のようにまとめる必要がある。
 module.exports = initializeCityDatabase;
 module.exports = isCity;
 */
